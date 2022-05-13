@@ -1,0 +1,6 @@
+framework module SNKeyboard {
+  umbrella header "SNKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

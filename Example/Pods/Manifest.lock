@@ -1,0 +1,16 @@
+PODS:
+  - SNKeyboard (0.1.0)
+
+DEPENDENCIES:
+  - SNKeyboard (from `../`)
+
+EXTERNAL SOURCES:
+  SNKeyboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SNKeyboard: 464fda6bcac822de381c751384d47d5f47e3a3ba
+
+PODFILE CHECKSUM: 5a912b3365ece645e738d45ef6b8afd8018cc878
+
+COCOAPODS: 1.11.2

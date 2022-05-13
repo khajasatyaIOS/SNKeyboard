@@ -1,0 +1,22 @@
+{
+  "name": "SNKeyboard",
+  "version": "0.1.0",
+  "summary": "A short description of SNKeyboard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/khajasatyaios@gmail.com/SNKeyboard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "khajasatyaios@gmail.com": "khajasatyaios@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/khajasatyaios@gmail.com/SNKeyboard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SNKeyboard/Classes/**/*"
+}

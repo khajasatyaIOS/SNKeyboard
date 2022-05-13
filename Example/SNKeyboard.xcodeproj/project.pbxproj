@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		04C5915BB505CABD645153D7 /* Pods-SNKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNKeyboard_Example.release.xcconfig"; path = "Target Support Files/Pods-SNKeyboard_Example/Pods-SNKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		289A6173EBF3A02CFD175C82 /* Pods-SNKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNKeyboard_Tests.release.xcconfig"; path = "Target Support Files/Pods-SNKeyboard_Tests/Pods-SNKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		455570C313346014D8613720 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		455570C313346014D8613720 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4576AAA9CBA1E5C837B3032A /* Pods_SNKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SNKeyboard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNKeyboard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8027BECBEE56F1B5534FD075 /* Pods_SNKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDD3B95526D5C212AB4858D /* Pods-SNKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNKeyboard_Example.debug.xcconfig"; path = "Target Support Files/Pods-SNKeyboard_Example/Pods-SNKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		92FD7BCF4DC1CDC40E84EC3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9EDED2A911FFC7E388D67A01 /* SNKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SNKeyboard.podspec; path = ../SNKeyboard.podspec; sourceTree = "<group>"; };
+		92FD7BCF4DC1CDC40E84EC3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9EDED2A911FFC7E388D67A01 /* SNKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SNKeyboard.podspec; path = ../SNKeyboard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F4DE5D771C424A3EA573EFC8 /* Pods-SNKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNKeyboard_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SNKeyboard_Tests/Pods-SNKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				F4DE5D771C424A3EA573EFC8 /* Pods-SNKeyboard_Tests.debug.xcconfig */,
 				289A6173EBF3A02CFD175C82 /* Pods-SNKeyboard_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
