@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SNKeyboard_Example' do
+  pod 'SNKeyboard', :path => '../'
+
+  target 'SNKeyboard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
