@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   'This library is useful for adding Done accessory on the keyboard. import SNKeyboard and can see the expected behavior.'
                        DESC
 
-  s.homepage         = 'https://github.com/khajasatyaios@gmail.com/SNKeyboard'
+  s.homepage         = 'https://github.com/khajasatyaios/SNKeyboard'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'khajasatyaios@gmail.com' => 'khajasatyaios@gmail.com' }
